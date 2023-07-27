@@ -16,8 +16,8 @@ public class EntityPlayerSP extends EntityPlayer {
 		super(var2);
 		this.mc = var1;
 		this.dimension = var4;
-		if(var3 != null && var3.playerName != null && var3.playerName.length() > 0) {
-			this.field_20047_bv = "http://mcresources.modification-station.net/skinapi.php?user=" + var3.playerName + ".png";
+		if(var3 != null && var3.playerName != null && var3.playerName.length() > 0) { 
+			this.field_20047_bv = "http://betacraft.uk:11705/skin/" + var3.playerName + ".png";
 			System.out.println("Loading texture " + this.field_20047_bv);
 		}
 
