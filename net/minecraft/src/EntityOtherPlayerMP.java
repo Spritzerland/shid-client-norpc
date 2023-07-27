@@ -15,7 +15,7 @@ public class EntityOtherPlayerMP extends EntityPlayer {
 		this.yOffset = 0.0F;
 		this.stepHeight = 0.0F;
 		if(var2 != null && var2.length() > 0) {
-			this.field_20047_bv = "http://mcresources.modification-station.net/skinapi.php?user=" + var2 + ".png";
+			this.field_20047_bv = "http://betacraft.uk:11705/skin/" + var2 + ".png";
 			System.out.println("Loading texture " + this.field_20047_bv);
 		}
 
