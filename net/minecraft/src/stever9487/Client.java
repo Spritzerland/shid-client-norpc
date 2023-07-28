@@ -17,7 +17,7 @@ public class Client {
     public static Hack[] hacks = new Hack[4096];
     public static ArrayList<Hack> hacksList = new ArrayList<>();
     public static ArrayList<String> friends = new ArrayList<>();
-    public static String currentVersion = "1.1.0";
+    public static String currentVersion = "1.1.1";
     public static String latestVersion;
     public static boolean needsUpdate;
 
