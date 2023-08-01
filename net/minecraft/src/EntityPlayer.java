@@ -88,7 +88,7 @@ public abstract class EntityPlayer extends EntityLiving {
 
 	public void func_20046_s() {
 		this.field_771_i = var7;
-		this.field_20067_q = "http://betacraft.uk/MinecraftCloaks/" + var7 + ".png";
+		this.field_20067_q = "http://betacraft.uk:11705/MinecraftCloaks/" + var7 + ".png";
 		this.skinUrl = this.field_20067_q;
 	}
 
